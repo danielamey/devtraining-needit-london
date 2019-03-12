@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="MiniImplementation_load_CMDB" max_length="40" name="x_58872_needit_miniimplementation_load_cmdb" type="collection">
+        <element attributes="import_attribute_name=Class,edge_encryption_enabled=true" label="Class" max_length="40" name="u_class" type="string"/>
+        <element attributes="import_attribute_name=Data Centre,edge_encryption_enabled=true" label="Data Centre" max_length="40" name="u_data_centre" type="string"/>
+        <element attributes="import_attribute_name=Operating System,edge_encryption_enabled=true" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="import_attribute_name=OS Version,edge_encryption_enabled=true" label="OS Version" max_length="40" name="u_os_version" type="string"/>
+        <element attributes="import_attribute_name=Server Manufacturer,edge_encryption_enabled=true" label="Server Manufacturer" max_length="40" name="u_server_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=Server Model ID" label="Server Model ID" max_length="40" name="u_server_model_id" type="integer"/>
+        <element attributes="import_attribute_name=Server Name,edge_encryption_enabled=true" label="Server Name" max_length="40" name="u_server_name" type="string"/>
+        <element attributes="import_attribute_name=Server Rack,edge_encryption_enabled=true" label="Server Rack" max_length="40" name="u_server_rack" type="string"/>
+        <element attributes="import_attribute_name=Short description,edge_encryption_enabled=true" label="Short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>
